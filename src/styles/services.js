@@ -266,9 +266,17 @@ export const SocialLink = styled(motion.a)`
   }
 
   @media (max-width: 768px) {
-    width: 90%;
-    justify-content: center;
+    width: auto;
+    max-width: 85%;
     margin: 0 auto;
-    padding: 1.2rem 2rem;
+    padding: 0.8rem 1.6rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+
+    svg {
+      width: 24px;
+      height: 24px;
+    }
   }
 `;
